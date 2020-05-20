@@ -4,4 +4,8 @@ class Green extends BaseClass{
 
         
     }
+    display(){
+        fill("green");
+        super.display();
+    }
 }
